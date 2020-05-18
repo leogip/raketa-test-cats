@@ -1,0 +1,27 @@
+{
+    "name": "raketa-test-cats",
+    "version": "1.0.0",
+    "description": "Test task Raketa",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leogip/raketa-test-cats.git"
+    },
+    "keywords": [
+        "gulp",
+        "bem",
+        "responsive",
+        "test",
+        "cats",
+        "raketa"
+    ],
+    "author": "Oleg Bolshov <bolshovdev@yandex.ru>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leogip/raketa-test-cats/issues"
+    },
+    "homepage": "https://github.com/leogip/raketa-test-cats#readme"
+}
