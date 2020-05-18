@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cats Raketa Task</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="theme_raketa_color_size">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header__logo logo">
+                        <img
+                            class="logo__image"
+                            src="./images/logo.svg"
+                            alt="logotype company"
+                        />
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#we">Почему мы?</a>
+                            </li>
+                            <li class="menu__item active">
+                                <a href="/">Номера</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#reviews">Отзывы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#search">Как нас найти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- .header -->
+        <main class="catalog">
+            <div class="container">
+                <header class="catalog__header">
+                    <div class="row">
+                        <h1 class="catalog__title text_type_h1">Наши номера</h1>
+                        <div class="catalog__sorting sorting">
+                            <div class="sorting__changed" tabindex="0">
+                                <img
+                                    class="sorting__arrow"
+                                    src="./sprite.svg#arrow"
+                                />
+                                <span>По площади</span>
+                            </div>
+                            <div class="sorting__box">
+                                <ul class="sorting__list">
+                                    <li class="sorting__item">
+                                        <img
+                                            class="sorting__arrow"
+                                            src="./sprite.svg#arrow"
+                                        />
+                                        <span>По площади</span>
+                                    </li>
+                                    <li class="sorting__item">
+                                        <img
+                                            class="sorting__arrow sorting_arrow_back"
+                                            src="./sprite.svg#arrow"
+                                        />
+                                        <span>По площади</span>
+                                    </li>
+                                    <li class="sorting__item">
+                                        <img
+                                            class="sorting__arrow"
+                                            src="./sprite.svg#arrow"
+                                        />
+                                        <span>По цене</span>
+                                    </li>
+                                    <li class="sorting__item">
+                                        <img
+                                            class="sorting__arrow sorting_arrow_back"
+                                            src="./sprite.svg#arrow"
+                                        />
+                                        <span>По цене</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- .catalog__header -->
+
+                <div class="catalog__view">
+                    <div class="catalog__filter filter">
+                        <form action="" class="form">
+                            <fieldset class="form__item">
+                                <h3 class="form__label">
+                                    Цена за сутки,₽
+                                </h3>
+                                <div class="form_inputs_inline">
+                                    <input
+                                        class="form__input form_type_price"
+                                        type="text"
+                                        value="от 100"
+                                    />
+                                    <input
+                                        class="form__input form_type_price"
+                                        type="text"
+                                        value="до 600"
+                                    />
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__item">
+                                <h3 class="form__label">Площадь</h3>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>0,63 м2</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>0,90 м2</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>1,13 м2</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>1,56 м2</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>2,56 м2</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="square"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>2,56 м2</p>
+                                </label>
+                            </fieldset>
+                            <fieldset class="form__item">
+                                <h3 class="form__label">
+                                    Оснащение номера
+                                </h3>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="room"
+                                        id="whitout"
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>Пустой номер</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="room"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>Лежак</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="room"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>Когтеточка</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="room"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>Игровой-комплекс</p>
+                                </label>
+                                <label class="checkbox">
+                                    <input
+                                        type="checkbox"
+                                        class="checkbox__input"
+                                        name="room"
+                                        id="whitout"
+                                        checked
+                                    />
+                                    <span class="checkbox_style_raketa"></span>
+                                    <p>Домик</p>
+                                </label>
+                            </fieldset>
+                            <div class="filter__buttons">
+                                <button
+                                    class="button button_size_middle button_type_secondary"
+                                    type="submit"
+                                >
+                                    Применить
+                                </button>
+                                <button
+                                    class="button button_size_middle button_type_border"
+                                >
+                                    Сбросить фильтр
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- .catalog__filter -->
+                    <div class="catalog__cards">
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-1@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-1.jpg"
+                                />
+                                <img
+                                    src="./images/cat-1.jpg"
+                                    alt="cat 1 minimal"
+                                />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Эконом
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 90х70х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 0,63 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#circle"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">
+                                        100₽
+                                    </span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-2@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-2.jpg"
+                                />
+                                <img
+                                    src="./images/cat-2.jpg"
+                                    alt="cat 2 eco +"
+                                />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Эконом Плюс
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 90х100х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 0,90 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#bed"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#rack"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">200₽</span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-3@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-3.jpg"
+                                />
+                                <img
+                                    src="./images/cat-3.jpg"
+                                    alt="cat 3 comfort"
+                                />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Комфорт
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 100х125х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 1,13 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#bed"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#rack"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#clew"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">250₽</span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-4@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-4.jpg"
+                                />
+                                <img src="./images/cat-4.jpg" alt="Сьют" />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Сьют
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 125х125х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 1,56 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#bed"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#rack"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#clew"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">350₽</span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-5@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-5.jpg"
+                                />
+                                <img
+                                    src="./images/cat-5.jpg"
+                                    alt="cat 5 luxe"
+                                />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Люкс
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 160х160х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 2,56 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#bed"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#rack"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#clew"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#home"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">500₽</span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                        <div class="card">
+                            <picture>
+                                <source
+                                    media="(max-width: 799px)"
+                                    srcset="./images/cat-6@2x.jpg"
+                                />
+                                <source
+                                    media="(min-width: 800px)"
+                                    srcset="./images/cat-6.jpg"
+                                />
+                                <img src="./images/cat-6.jpg" alt="Сьют" />
+                            </picture>
+                            <div class="card__content">
+                                <h2 class="text_type_h2 card__title">
+                                    Супер-Люкс
+                                </h2>
+                                <p class="card__attr">
+                                    Размеры (ШхГхВ) - 180х160х180 см
+                                </p>
+                                <p class="card__attr">Площадь - 2,88 м2</p>
+                                <div class="card__attr card__attr-icons">
+                                    Оснащение номера
+                                    <div class="card__icons">
+                                        <img
+                                            src="./sprite.svg#bed"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#rack"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#clew"
+                                            alt="icon"
+                                        />
+                                        <img
+                                            src="./sprite.svg#home"
+                                            alt="icon"
+                                        />
+                                    </div>
+                                </div>
+                                <p class="card__attr">
+                                    Цена за сутки:
+                                    <span class="card__attr-value">600₽</span>
+                                </p>
+                                <button
+                                    class="button button_size_large button_type_primary card__button"
+                                >
+                                    Забронировать
+                                    <i class="icon-pet"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- .card -->
+                    </div>
+                    <!-- .catalog__filter -->
+                </div>
+            </div>
+        </main>
+        <!-- .catalog -->
+        <script src="./script.js"></script>
+    </body>
+</html>
