@@ -1,0 +1,23 @@
+.theme_raketa_color_size {
+    --typo-text-color: #1a212f;
+    --button-primary-bg-color: #f05b1b;
+    --button-secondary-bg-color: #fac663;
+
+    --typo-title-font-family: 'Rubik', sans-serif;
+    --typo-text-font-family: 'Lato', sans-serif;
+
+    --typo-text-type-h1-font-size: 36px;
+    --typo-text-type-h2-font-size: 20px;
+    --typo-text-type-h3-font-size: 12px;
+    --typo-text-type-p-font-size: 14px;
+    --typo-text-type-h1-line-height: 43px;
+    --typo-text-type-h2-line-height: 24px;
+    --typo-text-type-h3-line-height: 15px;
+    --typo-text-type-p-line-height: 17px;
+
+    --button-width-large: 230px;
+    --button-width-middle: 185px;
+
+    --button-height-large: 45.26px;
+    --button-height-middle: 42px;
+}

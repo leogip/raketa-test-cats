@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: var(--typo-text-font-family, Arial, Helvetica, sans-serif);
+    font-size: var(--typo-text-type-p-font-size, 12px);
+    line-height: var(--typo-text-type-p-line-height, 1);
+    color: var(--typo-text-color, black);
+    margin: 0;
+}
+
+.text_type_h1 {
+    font-family: var(--typo-title-font-family, Arial, Helvetica, sans-serif);
+    font-size: var(--typo-text-type-h1-font-size, 30px);
+    line-height: var(--typo-text-type-h1-line-height, 1);
+    color: var(--typo-text-color, black);
+    font-weight: bold;
+}
+
+.text_type_h2 {
+    font-family: var(--typo-title-font-family, Arial, Helvetica, sans-serif);
+    font-size: var(--typo-text-type-h1-font-size, 30px);
+    line-height: var(--typo-text-type-h1-line-height, 1);
+    color: var(--typo-text-color, black);
+    font-weight: 500;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media (min-width: 968px) {
+    .container {
+        max-width: 920px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        max-width: 1236px;
+    }
+}
+
+.row {
+    display: flex;
+}

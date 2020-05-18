@@ -1,0 +1,46 @@
+.button {
+    font-family: var(--typo-text-font-family, Arial, Helvetica, sans-serif);
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: var(--typo-text-type-p-font-size, 12px);
+    line-height: var(--typo-text-type-p-line-height, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
+button:focus {
+    box-shadow: 0 0 0 0.1em #1a212f;
+}
+
+.button_size_middle {
+    width: var(--button-width-middle, 110px);
+    height: var(--button-height-middle, 40px);
+}
+.button_size_large {
+    width: var(--button-width-large, 90px);
+    height: var(--button-height-large, 40px);
+}
+
+.button_type_primary {
+    background-color: var(--button-primary-bg-color, #fefefe);
+    color: #fff;
+    border-radius: 25px;
+}
+
+.button_type_secondary {
+    background-color: var(--button-secondary-bg-color, #fefefe);
+    color: var(--typo-text-color);
+    border: 2px solid var(--button-secondary-bg-color, #fefefe);
+    border-radius: 25px;
+}
+
+.button_type_border {
+    border: 2px solid var(--button-secondary-bg-color, #fefefe);
+    color: var(--typo-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
