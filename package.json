@@ -23,5 +23,25 @@
     "bugs": {
         "url": "https://github.com/leogip/raketa-test-cats/issues"
     },
-    "homepage": "https://github.com/leogip/raketa-test-cats#readme"
+    "homepage": "https://github.com/leogip/raketa-test-cats#readme",
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "autoprefixer": "^9.8.0",
+        "browser-sync": "^2.26.7",
+        "cssnano": "^4.1.10",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-file-include": "^2.2.2",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-svg-sprite": "^1.5.0",
+        "gulp-uglify": "^3.0.2",
+        "postcss-import": "^12.0.1",
+        "webpack-stream": "^5.2.1"
+    }
 }
