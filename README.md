@@ -1,6 +1,6 @@
 # Raketa Test Task
 
-[https://leogip.github.io/raketa-test-cats/](Project link)
+[https://leogip.github.io/raketa-test-cats](Project link)
 
 ### Install dependencies
 
