@@ -6,18 +6,51 @@
     --typo-title-font-family: 'Rubik', sans-serif;
     --typo-text-font-family: 'Lato', sans-serif;
 
-    --typo-text-type-h1-font-size: 36px;
-    --typo-text-type-h2-font-size: 20px;
-    --typo-text-type-h3-font-size: 12px;
-    --typo-text-type-p-font-size: 14px;
-    --typo-text-type-h1-line-height: 43px;
-    --typo-text-type-h2-line-height: 24px;
-    --typo-text-type-h3-line-height: 15px;
-    --typo-text-type-p-line-height: 17px;
+    --typo-text-base-font-size: 14px;
+    --typo-text-base-line-height: 17px;
+
+    --typo-text-type-h1-font-size: calc(var(--typo-text-base-font-size) * 2.4);
+    --typo-text-type-h2-font-size: calc(var(--typo-text-base-font-size) * 1.5);
+    --typo-text-type-h3-font-size: calc(var(--typo-text-base-font-size) * 1.1);
+    --typo-text-type-p-font-size: var(--typo-text-base-font-size);
+
+    --typo-text-type-h1-line-height: calc(
+        var(--typo-text-base-line-height) * 2.5
+    );
+    --typo-text-type-h2-line-height: calc(
+        var(--typo-text-base-line-height) * 1.4
+    );
+    --typo-text-type-h3-line-height: calc(
+        var(--typo-text-base-line-height) * 1.1
+    );
+    --typo-text-type-p-line-height: var(--typo-text-base-line-height);
 
     --button-width-large: 230px;
     --button-width-middle: 185px;
 
     --button-height-large: 45.26px;
     --button-height-middle: 42px;
+}
+
+@media (max-width: 576px) {
+    .theme_raketa_color_size {
+        --typo-text-base-font-size: 11px;
+        --typo-text-base-line-height: 14px;
+        --button-width-middle: 160px;
+        --button-height-middle: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .theme_raketa_color_size {
+        --typo-text-base-font-size: 12px;
+        --typo-text-base-line-height: 15px;
+    }
+}
+
+@media (max-width: 968px) {
+    .theme_raketa_color_size {
+        --typo-text-base-font-size: 13px;
+        --typo-text-base-line-height: 15px;
+    }
 }

@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: var(--typo-text-font-family, Arial, Helvetica, sans-serif);
-    font-size: var(--typo-text-type-p-font-size, 12px);
+    font-size: var(--typo-text-base-font-size, 12px);
     line-height: var(--typo-text-type-p-line-height, 1);
     color: var(--typo-text-color, black);
     margin: 0;
@@ -26,8 +26,16 @@ body {
 
 .text_type_h2 {
     font-family: var(--typo-title-font-family, Arial, Helvetica, sans-serif);
-    font-size: var(--typo-text-type-h1-font-size, 30px);
-    line-height: var(--typo-text-type-h1-line-height, 1);
+    font-size: var(--typo-text-type-h2-font-size, 30px);
+    line-height: var(--typo-text-type-h2-line-height, 1);
+    color: var(--typo-text-color, black);
+    font-weight: 500;
+}
+
+.text_type_h3 {
+    font-family: var(--typo-text-font-family, Arial, Helvetica, sans-serif);
+    font-size: var(--typo-text-type-h3-font-size, 18px);
+    line-height: var(--typo-text-type-h3-line-height, 1);
     color: var(--typo-text-color, black);
     font-weight: 500;
 }
@@ -36,11 +44,13 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    padding: 0 15px;
 }
 
 @media (min-width: 576px) {
     .container {
-        max-width: 540px;
+        max-width: 560px;
+        padding: 0;
     }
 }
 

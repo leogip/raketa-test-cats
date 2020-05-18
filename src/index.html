@@ -37,6 +37,7 @@
             </div>
         </header>
         <!-- .header -->
+
         <main class="catalog">
             <div class="container">
                 <header class="catalog__header">
@@ -88,11 +89,11 @@
                 <!-- .catalog__header -->
 
                 <div class="catalog__view">
-                    <div class="catalog__filter filter">
-                        <form action="" class="form">
+                    <div class="catalog__filter">
+                        <form action="/" class="form filter">
                             <fieldset class="form__item">
-                                <h3 class="form__label">
-                                    Цена за сутки,₽
+                                <h3 class="text_type_h3 form__label">
+                                    Цена за сутки, ₽
                                 </h3>
                                 <div class="form_inputs_inline">
                                     <input
@@ -108,7 +109,9 @@
                                 </div>
                             </fieldset>
                             <fieldset class="form__item">
-                                <h3 class="form__label">Площадь</h3>
+                                <h3 class="text_type_h3 form__label">
+                                    Площадь
+                                </h3>
                                 <label class="checkbox">
                                     <input
                                         type="checkbox"
@@ -177,7 +180,7 @@
                                 </label>
                             </fieldset>
                             <fieldset class="form__item">
-                                <h3 class="form__label">
+                                <h3 class="text_type_h3 form__label">
                                     Оснащение номера
                                 </h3>
                                 <label class="checkbox">
@@ -256,11 +259,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-1@2x.jpg"
+                                    srcset="./images/cat-1.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-1.jpg"
+                                    srcset="./images/cat-1@2x.jpg"
                                 />
                                 <img
                                     src="./images/cat-1.jpg"
@@ -303,11 +306,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-2@2x.jpg"
+                                    srcset="./images/cat-2.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-2.jpg"
+                                    srcset="./images/cat-2@2x.jpg"
                                 />
                                 <img
                                     src="./images/cat-2.jpg"
@@ -352,11 +355,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-3@2x.jpg"
+                                    srcset="./images/cat-3.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-3.jpg"
+                                    srcset="./images/cat-3@2x.jpg"
                                 />
                                 <img
                                     src="./images/cat-3.jpg"
@@ -405,11 +408,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-4@2x.jpg"
+                                    srcset="./images/cat-4.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-4.jpg"
+                                    srcset="./images/cat-4@2x.jpg"
                                 />
                                 <img src="./images/cat-4.jpg" alt="Сьют" />
                             </picture>
@@ -455,11 +458,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-5@2x.jpg"
+                                    srcset="./images/cat-5.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-5.jpg"
+                                    srcset="./images/cat-5@2x.jpg"
                                 />
                                 <img
                                     src="./images/cat-5.jpg"
@@ -512,11 +515,11 @@
                             <picture>
                                 <source
                                     media="(max-width: 799px)"
-                                    srcset="./images/cat-6@2x.jpg"
+                                    srcset="./images/cat-6.jpg"
                                 />
                                 <source
                                     media="(min-width: 800px)"
-                                    srcset="./images/cat-6.jpg"
+                                    srcset="./images/cat-6@2x.jpg"
                                 />
                                 <img src="./images/cat-6.jpg" alt="Сьют" />
                             </picture>
@@ -563,11 +566,12 @@
                         </div>
                         <!-- .card -->
                     </div>
-                    <!-- .catalog__filter -->
+                    <!-- .catalog__cards -->
                 </div>
             </div>
         </main>
         <!-- .catalog -->
+
         <script src="./script.js"></script>
     </body>
 </html>
